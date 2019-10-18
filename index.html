@@ -11,38 +11,35 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	    <link rel="stylesheet" href="css/reset.css"/>
+		<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/global.css"/>
 	</head>
 	<body>
-		
-			
 			<header>
 				<div class="container">
 					<div class="row wrapper">
-						
-							<div class="logo-search col-2">
-								<img class="pull-left" src="img/logo.png" />
-							</div>
-							<div class="d-none d-md-block col-3">
-								<form method="POST" action="index.html">
-									<input type="search" required class="search">
-									<input type="submit" name="submit" value="Rechercher" class="submit">
-								</form>
-							</div>
-
+						<div class="logo-search col-2">
+							<img class="pull-left" src="img/logo.png" />
+						</div>
+						<div class="d-none d-md-block col-3">
+							<form method="POST" action="index.html">
+								<input type="search" required class="search">
+								<input type="submit" name="submit" value="Rechercher" class="submit">
+							</form>
+						</div>
 						<div class="col-5"></div>
 						<div class="user dropdown col-2">
-							  <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Luke Chesser</button>
-							 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Luke Chesser</button>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 							    <a class="dropdown-item" href="#"><span class="glyphicon glyphicon-pencil"></span>  Edit my profile</a>
 							    <div class="dropdown-divider"></div>
 							    <a class="dropdown-item" href="#"><span class="glyphicon glyphicon-off"></span>  Logout</a>
-							 </div>
+							</div>
 						</div>
 					</div>
+				</div>
 			</header>
-			</div>
 			<div class="container">
 			<div class="row">
 				<div class="col-2 d-none d-lg-block">
@@ -63,37 +60,40 @@
 						</ul>
 					</nav>
 				</div>
-			<div class="col-10">
+			<div class="col-md-10">
 			<main>
 				<header>
 						<div class="name-photo row">
 							<aside class="col-1">
 								<img src="img/artist.png" />
 							</aside>
-							<div class="name col-4">
+							<div class="name offset-2 offset-lg-1">
 								<h1>Luke Chesser</h1>
 								<p>Montreal, Quebec, Canada <a href="https://www.facebook.com/" target="_blank"><img class="share" src="img/icon/fb.png" /></a><a href="https://twitter.com/" target="_blank"><img class="share" src="img/icon/twitter.png" /></a></p>
 							</div>
 						</div>
-					<div class="stats-links row">
-						<section class="stats col-lg-9 col-10">
-							<span>2 Playlists</span>
-							<span>4 Reviews</span>
-							<span>6 Followers</span>
-							<span>13 Following</span>
-						</section>
-						<div class="links">
-							<a href="#">Collection</a>
-							<a href="#">History</a>
-						</div>
-					</div>
-				</header>
-				<div class="row">
-					<div class="col">
+					
+						
+		                    <div class="stats-links row">
+		                        <div class="stats col-12 col-lg-9">
+	                                <span>2 Playlists</span>
+	                                <span>4 Reviews</span>
+	                                <span>6 Followers</span>
+	                                <span>13 Following</span>
+		                        </div>
+		                        <div class="links col-12 col-lg-3">
+	                                <a href="#">Collection</a>
+	                                <a href="#">History</a>
+		                        </div>
+		                    </div>
+            		
+			</header>
+			<div class="row">
+				<div class="col-5 col-lg-4">
 						<h2>Top Album</h2>
 					</div>
-					<div class="col"></div>
-					<div class="col">
+					<div class="col-2 col-lg-5"></div>
+					<div class="col-5 col-lg-3 d-flex flex-row-reverse">
 						<a class="station" href="#">Start Station</a>
 					</div>
 				</div>
@@ -186,5 +186,7 @@
 			</main>
 		</div>
 		</div>
+	</div>
+	</div>
 	</body>
 </html>
