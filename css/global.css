@@ -256,3 +256,20 @@ input.search {
 @media (max-width: 600px) {
     .share{display: none;}
 }
+@media (min-width: 600px) {
+    body{
+        font-size: 1.15rem; 
+    }
+}
+
+@media screen and (min-width: 1400px) {
+  body {
+    font-size: 1.2rem; 
+  }
+
+@media screen and (max-width: 800px){
+    .research{visibility: hidden;}
+}
+
+
+
